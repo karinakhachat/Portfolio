@@ -36,8 +36,9 @@ h1,h2,h3,h4,h5,h6{font-weight:700; color: orange !important;}
 .portfolio-item:hover 
 .caption{background-color:rgba(29,128,159,.9);-webkit-clip-path:inset(2rem);clip-path:inset(2rem)}}
 footer.footer{padding-top:5rem;padding-bottom:5rem}footer
-.footer .social-link{display:block;height:4rem;width:4rem;line-height:4.3rem;font-size:1.5rem;background-color:#1d809f;transition:background-color .15s ease-in-out;box-shadow:0 3px 3px 0 rgba(0,0,0,.1)}
+.footer .social-link{display:block;height:4rem;width:4rem;line-height:4.3rem;font-size:1.5rem;background-color:#1d809f;transition: .15s ease-in-out;box-shadow:0 3px 3px 0 rgba(0,0,0,.1); color: orange;}
 footer.footer .social-link:hover{background-color:#155d74;text-decoration:none}
+#page-top > footer{color:orange !important;}
 a{color:#1d809f}
 a:active,a:focus,a:hover{color:#155d74}
 .btn-primary{background-color:teal!important;color:#fff!important; animation-name: wobble; animation-duration: 4s;}
