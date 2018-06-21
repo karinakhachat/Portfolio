@@ -12,6 +12,8 @@ body {
   padding: 1.25rem 2.5rem;
 }
 
+#avatar{margin-bottom: 10px;}
+
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
@@ -35,8 +37,7 @@ h5,
 h6 {
   font-weight: 700;
 }
-.masthead h1{
-color:blue;}
+
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7);

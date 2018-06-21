@@ -14,16 +14,13 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
     <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Advent+Pro:300|Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kristi|Mr+Dafoe|Pacifico" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-
-
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Over+the+Rainbow" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+    <link href="css/stylish-portfolio2.css" rel="stylesheet">
 
   </head>
 
@@ -53,16 +50,21 @@
       </ul>
     </nav>
 
+
     <!-- Header -->
-    <header class="masthead d-flex">
+    
+   
+   <header class="masthead d-flex">
       <div class="container text-center my-auto">
-        <h1 class="mb-1" id="headtext">Karina <img src="img/myAvatar.png" alt="avatar" height="115" width="115">Khachatryan</h1>
+        <h1 class="mb-1" id="headtext">
+          Karina Khachatryan <p>Full-Stack Developer</p></h1>
+         
         
 
         <h3 class="mb-5">
          
         </h3>
-        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#services">Check it out</i></a>
       </div>
       <div class="overlay"></div>
     </header>
@@ -82,56 +84,74 @@
     </section> -->
 
     <!-- Services -->
-    <section class="content-section bg-primary text-white text-center" id="services">
+    <section class="content-section bg-primary text-teal mb-5 text-center" id="services">
       <div class="container">
         <div class="content-section-heading">
-          <h3 class="text-secondary mb-0">My Skills</h3>
+         
           <h2 class="mb-5" id"secondh2">How I work my magic</h2>
         </div>
-        <div class="row">
+        <div class="row" id="skills">
           <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="fas fa-server"></i>
+                <i class="fab fa-html5"></i>
 
 
             </span>
             <h4>
-              <strong>Front end development</strong>
+              <strong>Front End 
+                <br>
+                Development</strong>
             </h4>
-            <p class="text-faded mb-0"><ul>HTML5</ul><ul>Bootstrap</ul>
-              <ul>CSS</ul> <ul>JQuery</ul><ul>JavaScript</ul></p>
+            <p class="text-faded mb-0">
+              <ul>
+              <li>HTML5</li>
+              <li>Bootstrap</li>
+              <li>CSS</li> 
+              <li>JQuery</li>
+              <li>JavaScript</li></ul></p>
           </div>
           <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-pencil"></i>
+                <i class="fab fa-node-js"></i>
+
+
             </span>
             <h4>
               <strong>Server Side Development</strong>
             </h4>
-            <p class="text-faded mb-0"><ul>Node.JS</ul><ul>Express</ul>
+            <p class="text-faded mb-0">
+                <ul>
+                    <li>Node.JS</li>
+                    <li>Express.JS</li>
+                    </ul>
               </p>
           </div>
           <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-like"></i>
+                <i class="fas fa-server"></i>
             </span>
             <h4>
               <strong>Database</strong>
             </h4>
          
-              <ul>MongoDB</ul><ul>mySQL</ul><ul>Sequelize</ul>
-            <ul>Mongoose</ul></p>
+            <ul>
+                <li>MongoDB</li>
+                <li>mySQL</li>
+                <li>Sequelize</li> 
+                </ul>
           </div>
           <div class="col-lg-3 col-md-6">
             <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-mustache"></i>
+                <i class="fab fa-react"></i>
             </span>
             <h4>
               <strong>Frameworks</strong>
             </h4>
-            <p class="text-faded mb-0"><ul>Handlebars.JS</ul>
-            <ul>Pug.JS</ul>
-          <Ul>Animate.CSS</Ul></p>
+            <p class="text-faded mb-0"><ul>
+                <li>Pug.JS</li>
+                <li>Handlebars.JS</li>
+                <li>React.JS</li> 
+                </ul></p>
           </div>
         </div>
       </div>
@@ -139,6 +159,7 @@
 
     <!-- Callout -->
     <section class="callout">
+      <div class="backdrop"></div>
       <div class="container text-center">
         <h2 class="mx-auto mb-5">See
           <em>My</em>
@@ -151,15 +172,15 @@
     <section class="content-section" id="portfolio">
       <div class="container">
         <div class="content-section-heading text-center">
-          <h3 class="text-secondary mb-0">Portfolio</h3>
-          <h2 class="mb-5">My Creations</h2>
+          
+          <h2 class="mb-5" id="portfoliohead">My Creations</h2>
         </div>
         <div class="row no-gutters">
           <div class="col-lg-6">
             <a class="portfolio-item" href="https://juliantsk.github.io/Project1/">
               <span class="caption">
                 <span class="caption-content">
-                  <h2>S.T.E.M project</h2>
+                  <h4>S.T.E.M project</h4>
                   <p class="mb-0">A website created as an outreach to help students and youth find technology classes in their area using eventbrite API</p>
                 </span>
               </span>
@@ -170,7 +191,7 @@
             <a class="portfolio-item" href="https://karinakhachat.github.io/TrainHomework/">
               <span class="caption">
                 <span class="caption-content">
-                  <h2>Train Time</h2>
+                  <h4>Train Time</h4>
                   <p class="mb-0">A small applications to keep track of a Train schedule storing data using Firebase</p>
                 </span>
               </span>
@@ -181,7 +202,7 @@
             <a class="portfolio-item" href="https://karinakhachat.github.io/Giphy/">
               <span class="caption">
                 <span class="caption-content">
-                  <h2>Giphy</h2>
+                  <h4>Giphy</h4>
                   <p class="mb-0">A small application that communicates with the Giphy API to render Gif's by interest</p>
                 </span>
               </span>
@@ -192,7 +213,7 @@
             <a class="portfolio-item" href="https://karinakhachat.github.io/week-4-game/">
               <span class="caption">
                 <span class="caption-content">
-                  <h2>Crystal Collecter</h2>
+                  <h4>Crystal Collecter</h4>
                   <p class="mb-0">A small game for fun!</p>
                 </span>
               </span>
@@ -221,7 +242,9 @@
         <ul class="list-inline mb-5" >
           <li class="list-inline-item">
             <a class="social-link rounded-circle text-orange mr-3" href="https://www.facebook.com/karine.khachatryan.14">
-              <i class="icon-social-facebook"></i>
+              <i class="fab fa-facebook"></i>
+
+
             </a>
           </li>
           <li class="list-inline-item">
@@ -231,7 +254,7 @@
           </li>
           <li class="list-inline-item">
             <a class="social-link rounded-circle text-orange" href="https://github.com/karinakhachat">
-              <i class="icon-social-github"></i>
+              <i class="fab fa-github"></i>
             </a>
           </li>
         </ul>
